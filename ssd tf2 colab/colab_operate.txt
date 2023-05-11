@@ -1,0 +1,8 @@
+1.上传weight文件
+2.cd要加%
+3.chmod  +x predict.py
+4.predict.py 添加 #!/usr/bin/python
+5.有中文要加# -*- coding: UTF-8 -*-
+6.引入平行目录下其他文件夹的.py要添加__init__.py
+7.img=os.path.join('/content/ssd-tf2/img','street.jpg')
+8.ssd-tf2/ssd.py line 193 draw.text(text_origin, str(label), fill=(0, 0, 0), font=font)
